@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="stylesheet" href="juego.css" />
+</head>
+
+<body>
+    <audio controls autoplay>
+        <source src="https://www.cjoint.com/doc/21_11/KKlpuYeXeLT_TRENO2.0.mp3" type="audio/mpeg">
+    </audio>
+    <h1 id="titulo">Hola Mundo</h1>
+    <div id="bannerRotarTelefono" class="esconder">
+        <div>Usa tu teléfono en modo vertical para jugar</div>
+        <button id="botonCerrarBanner">OK</button>
+    </div>
+    <div id="contenedorJuego">
+        <div id="contenedorNintendo">
+            <div id="puntos">PUNTOS: 0</div>
+            <div id="juegoOverlay">
+                <img id="nintendo" src="nintendo.png" />
+                <canvas id="juegoCanvas" width="600" height="600"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="culebrita.js"></script>
+</body>
+
+</html>
